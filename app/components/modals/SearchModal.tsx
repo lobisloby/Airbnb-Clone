@@ -185,6 +185,7 @@ const SearchModal = () => {
     }
 
   return (
+    //modal
     <Modal
         isOpen={searchModal.isOpen}
         onClose={searchModal.onClose}
