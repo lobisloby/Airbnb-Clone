@@ -10,7 +10,7 @@ interface HomeProps{
 }
 
 const Home = async ({searchParams}:HomeProps)=> {
-  const listings = await getListings(searchParams); 
+  const listings = await getListings(Promise.resolve(searchParams)); 
   const currentUser = await getCurrentUser();
 
 
@@ -23,6 +23,8 @@ const Home = async ({searchParams}:HomeProps)=> {
       </ClientOnly>
     )
   }
+
+
   return (
     <ClientOnly>
       <Container>
