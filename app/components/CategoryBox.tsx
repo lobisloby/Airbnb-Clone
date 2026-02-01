@@ -28,6 +28,7 @@ const CategoryBox: React.FC<CategoriesProps> = ({
     }
 
     const updatedQuery: any = {
+      ...currentQuery,
       category: label,
     };
 

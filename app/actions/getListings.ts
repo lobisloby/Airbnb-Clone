@@ -7,10 +7,10 @@ export interface IListingParams{
 
 
 export default async function getListings(
-    params: IListingParams
+    params: Promise<IListingParams>
 ){
     try{
-        const {userId} = params;
+        const {userId} = await params;
 
         let query:any ={};
 
