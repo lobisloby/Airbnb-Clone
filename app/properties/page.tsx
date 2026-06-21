@@ -21,9 +21,9 @@ const PropertiesPage = async ()=>{
         )
     }
 
-    const listings = await getListings({
+    const listings = await getListings(Promise.resolve({
         userId:currentUser.id
-    });
+    }));
 
     if(listings.length=== 0){
         return (
