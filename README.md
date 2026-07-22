@@ -143,4 +143,4 @@ This project is for educational purposes.
 
 ## Author
 
-Built by **Ayoub** — practice project inspired by the Airbnb platform.
+Built by **Ayoub coder** — practice project inspired by the Airbnb platform.
