@@ -4,7 +4,7 @@
 
 A full-stack property rental platform inspired by Airbnb. Browse listings by category, search with filters, book stays, manage your properties, and save favorites — built with Next.js, TypeScript, and MongoDB.
 
-**Live demo:** [https://test-project-azsd8etqy-coder-ayoubs-projects-14feca06.vercel.app/?category=Windmills](https://test-project-azsd8etqy-coder-ayoubs-projects-14feca06.vercel.app/?category=Windmills)
+**Live demo:** [Airbnb Clone](https://test-project-olive-theta.vercel.app/)
 
 ---
 
